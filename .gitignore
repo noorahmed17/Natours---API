@@ -1,0 +1,6 @@
+node_modules
+*.env
+.cache/
+.dist/
+jsconfig.json
+app-record
