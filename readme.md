@@ -48,7 +48,7 @@ Natours is a modern web application designed for adventurers and tour enthusiast
 ## Demonstration 🖥
 
 Home Page :
-![HomePage](https://raw.githubusercontent.com/noorahmed17/Natours---API.git/master/public/screenshots/home.gif)
+![HomePage](https://raw.githubusercontent.com/noorahmed17/Natours---API/main/public/screenshots/home.gif)
 
 Tour Details :
 ![TourDetails](/public/screenshots/tour.gif)
