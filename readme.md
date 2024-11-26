@@ -73,11 +73,11 @@ Booked Tours :
 
 User Profile :
 
-<img src="https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/user.png" alt="UserProfile" width="600" height="400">
+<img src="https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/user.png" alt="UserProfile" width="600" height="600">
 
 Admin Profile :
 
-<img src="https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/admin.png" alt="UserProfile" width="600" height="400">
+<img src="https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/admin.png" alt="UserProfile" width="600" height="4600">
 
 ## Build With 🏗
 
