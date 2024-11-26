@@ -3,12 +3,3 @@ node_modules
 .cache/
 .dist/
 jsconfig.json
-app-record/*
-!app-record/home.gif
-!app-record/tour.gif
-!app-record/login.gif
-!app-record/signup.gif
-!app-record/payment.gif
-!app-record/bookedTours.jpg
-!app-record/user.png
-!app-record/admin.png

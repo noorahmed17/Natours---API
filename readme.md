@@ -48,28 +48,28 @@ Natours is a modern web application designed for adventurers and tour enthusiast
 ## Demonstration 🖥
 
 Home Page :
-![HomePage](/app-record/home.gif)
+![HomePage](/public/screenshots/home.gif)
 
 Tour Details :
-![TourDetails](/app-record/tour.gif)
+![TourDetails](/public/screenshots/tour.gif)
 
 LogIn Page :
-![LogInPage](/app-record/login.gif)
+![LogInPage](/public/screenshots/login.gif)
 
 SignUp Page :
-![SignUpPage](/app-record/signup.gif)
+![SignUpPage](/public/screenshots/signup.gif)
 
 Payment Process:
-![Payment](/app-record/payment.gif)
+![Payment](/public/screenshots/payment.gif)
 
 Booked Tours :
-![BookedTours](/app-record/bookedTours.jpg)
+![BookedTours](/public/screenshots/bookedTours.jpg)
 
 User Profile :
-![UserProfile](/app-record/user.png)
+![UserProfile](/public/screenshots/user.png)
 
 Admin Profile :
-![AdminProfile](/app-record/admin.png)
+![AdminProfile](/public/screenshots/admin.png)
 
 ## Build With 🏗
 
