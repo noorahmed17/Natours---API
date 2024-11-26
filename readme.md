@@ -77,7 +77,7 @@ User Profile :
 
 Admin Profile :
 
-<img src="https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/admin.png" alt="UserProfile" width="600" height="4600">
+<img src="https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/admin.png" alt="UserProfile" width="600" height="600">
 
 ## Build With 🏗
 
