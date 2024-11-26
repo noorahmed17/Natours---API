@@ -48,27 +48,35 @@ Natours is a modern web application designed for adventurers and tour enthusiast
 ## Demonstration 🖥
 
 Home Page :
+
 ![HomePage](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/home.gif)
 
 Tour Details :
+
 ![TourDetails](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/tour.gif)
 
 LogIn Page :
+
 ![LogInPage](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/login.gif)
 
 SignUp Page :
+
 ![SignUpPage](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/signup.gif)
 
 Payment Process:
+
 ![Payment](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/payment.gif)
 
 Booked Tours :
+
 ![BookedTours](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/bookedTours.jpg)
 
 User Profile :
+
 ![UserProfile](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/user.png)
 
 Admin Profile :
+
 ![AdminProfile](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/admin.png)
 
 ## Build With 🏗
