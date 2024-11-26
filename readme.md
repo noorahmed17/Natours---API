@@ -51,25 +51,25 @@ Home Page :
 ![HomePage](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/home.gif)
 
 Tour Details :
-![TourDetails](/public/screenshots/tour.gif)
+![TourDetails](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/tour.gif)
 
 LogIn Page :
-![LogInPage](/public/screenshots/login.gif)
+![LogInPage](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/login.gif)
 
 SignUp Page :
-![SignUpPage](/public/screenshots/signup.gif)
+![SignUpPage](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/signup.gif)
 
 Payment Process:
-![Payment](/public/screenshots/payment.gif)
+![Payment](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/payment.gif)
 
 Booked Tours :
-![BookedTours](/public/screenshots/bookedTours.jpg)
+![BookedTours](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/bookedTours.jpg)
 
 User Profile :
-![UserProfile](/public/screenshots/user.png)
+![UserProfile](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/user.png)
 
 Admin Profile :
-![AdminProfile](/public/screenshots/admin.png)
+![AdminProfile](https://raw.githubusercontent.com/noorahmed17/Natours---API/master/public/screenshots/admin.png)
 
 ## Build With 🏗
 
