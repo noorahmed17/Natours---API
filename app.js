@@ -24,7 +24,7 @@ const bookingController = require("./controllers/bookingController");
 dotenv.config({ path: "./config.env" });
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 app.post(
   "/webhook",
