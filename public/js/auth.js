@@ -5,7 +5,7 @@ export const login = async (email, password) => {
   try {
     const res = await axios({
       method: "post",
-      url: "/api/users/signin",
+      url: "http://localhost:3000/api/users/signin",
       data: {
         email,
         password,
@@ -27,7 +27,7 @@ export const logout = async () => {
   try {
     const res = await axios({
       method: "get",
-      url: "/api/users/logout",
+      url: "http://localhost:3000/api/users/logout",
     });
     if (res.data.status === "success") window.location.href = "/";
   } catch (err) {
@@ -40,7 +40,7 @@ export const signup = async (name, email, password, passwordConfirm) => {
   try {
     const res = await axios({
       method: "post",
-      url: "/api/users/signup",
+      url: "http://localhost:3000/api/users/signup",
       data: { name, email, password, passwordConfirm },
     });
     if (res.data.status === "success") {
