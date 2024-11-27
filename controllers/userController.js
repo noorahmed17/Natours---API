@@ -5,6 +5,14 @@ const AppCatchErr = require("../utils/appCatchErr");
 const catchAsync = require("../utils/catchAsync");
 const factory = require("../controllers/handlerFactory");
 
+const filterObj = (obj, ...allowedFields) => {
+  const newObj = {};
+  Object.keys(obj).forEach((el) => {
+    if (allowedFields.includes(el)) newObj[el] = obj[el];
+  });
+  return newObj;
+};
+
 //User Image Uploading - Processing - Updating
 const multerStorage = multer.memoryStorage();
 
@@ -55,20 +63,14 @@ exports.updateCurrentUser = catchAsync(async (req, res, next) => {
       new AppCatchErr("Password cannot be changed via this route", 400)
     );
   }
-  if (req.file) req.body.photo = req.file.filename;
 
-  const updateUser = await User.findByIdAndUpdate(
-    req.user.id,
-    {
-      name: req.body.name || req.user.name,
-      email: req.body.email || req.user.email,
-      photo: req.body.photo || req.user.photo,
-    },
-    {
-      new: true,
-      runValidators: true,
-    }
-  );
+  const filteredBody = filterObj(req.body, "name", "email");
+  if (req.file) filteredBody.photo = req.file.filename;
+
+  const updateUser = await User.findByIdAndUpdate(req.user.id, filteredBody, {
+    new: true,
+    runValidators: true,
+  });
 
   res.status(200).json({
     status: "success",
