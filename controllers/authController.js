@@ -46,7 +46,6 @@ exports.signIn = catchAsync(async (req, res, next) => {
   if (!user || !(await user.checkUserPassword(password, user.password))) {
     return next(new AppCatchErr("User Does Not Exist", 401));
   }
-  console.log("USER ", user);
   createAndSendToken(user, 200, res);
 });
 

@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 const favicon = require("serve-favicon");
 const pug = require("pug");
 const path = require("path");
+const compression = require("compression");
 const ratelimit = require("express-rate-limit");
 const mongoSanitize = require("express-mongo-sanitize");
 const helmet = require("helmet");
@@ -41,6 +42,7 @@ app.use(cookieParser());
 app.use(cors());
 app.use(mongoSanitize());
 app.use(hpp());
+app.use(compression());
 
 mongoose
   .connect(process.env.DB_URL)

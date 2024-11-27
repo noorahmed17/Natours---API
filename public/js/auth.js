@@ -5,13 +5,12 @@ export const login = async (email, password) => {
   try {
     const res = await axios({
       method: "post",
-      url: "http://localhost:3000/api/users/signin",
+      url: "/api/users/signin",
       data: {
         email,
         password,
       },
     });
-    console.log(res);
     if (res.data.status === "success") {
       showAlert("success", "Logged in successfully!");
       window.setTimeout(() => {
@@ -28,9 +27,8 @@ export const logout = async () => {
   try {
     const res = await axios({
       method: "get",
-      url: "http://localhost:3000/api/users/logout",
+      url: "/api/users/logout",
     });
-    console.log(res);
     if (res.data.status === "success") window.location.href = "/";
   } catch (err) {
     console.log(err.response);
@@ -42,7 +40,7 @@ export const signup = async (name, email, password, passwordConfirm) => {
   try {
     const res = await axios({
       method: "post",
-      url: "http://localhost:3000/api/users/signup",
+      url: "/api/users/signup",
       data: { name, email, password, passwordConfirm },
     });
     if (res.data.status === "success") {

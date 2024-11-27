@@ -70,7 +70,6 @@ const createBookingCheckout = async (session) => {
   const user = (await User.findOne({ email: session.customer_email })).id;
   const price = session.amount_total / 100;
   if (!tour || !user || !price) {
-    console.error("Missing data for booking:", { tour, user, price });
     return;
   }
 
@@ -87,33 +86,17 @@ exports.webhookCheckout = (req, res, next) => {
       signature,
       process.env.STRIPE_WEBHOOK_KEY
     );
-    console.log("Webhook received: ", event.type);
     if (event.type === "checkout.session.completed") {
       createBookingCheckout(event.data.object);
     }
   } catch (err) {
     return res.status(400).send(`Webhook error: ${err.message}`);
   }
-
-  switch (event.type) {
-    case "payment_intent.succeeded":
-      console.log("PaymentIntent succeeded:", event.data.object);
-      break;
-    case "payment_intent.created":
-      console.log("PaymentIntent created:", event.data.object);
-      break;
-    case "charge.updated":
-      console.log("Charge updated:", event.data.object);
-      break;
-    default:
-      console.warn(`Unhandled event type: ${event.type}`);
-  }
   res.status(200).json({ received: true });
 };
 
 //Set Tour ID for Nested Route : /tours/tourId/booking || /users/userId/booking
 exports.setId = catchAsync(async (req, res, next) => {
-  console.log(req.params);
   const { tourId, userId } = req.params;
 
   const filter = tourId ? { tour: tourId } : userId ? { user: userId } : {};

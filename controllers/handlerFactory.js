@@ -3,7 +3,6 @@ const catchAsync = require("../utils/catchAsync");
 
 exports.getAll = (Model) => async (req, res, next) => {
   const doc = req.reviews || req.bookings || (await Model.find());
-  console.log("doc:", doc);
   res.status(200).json({
     status: "success",
     results: doc.length,
