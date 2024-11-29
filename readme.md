@@ -93,6 +93,8 @@ Admin Profile :
 - [Mapbox](https://www.mapbox.com/) - Mapping service for tour locations.
 - [Heroku](https://www.heroku.com/) - Cloud platform for application deployment.
 
+## Future Updates to do
+
 ## Acknowledgement 🙏🏻
 
 This project is part of the online course I've taken at Udemy. Thanks to Jonas Schmedtmann for creating this awesome course! Link to the course: [Node.js, Express, MongoDB & More: The Complete Bootcamp](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/)
