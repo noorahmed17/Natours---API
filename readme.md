@@ -91,9 +91,11 @@ Admin Profile :
 - [Postman](https://www.postman.com/) - API testing and debugging platform.
 - [Mailosaur](https://mailosaur.com/) and [SendGrid](https://sendgrid.com/) - Email services for communication.
 - [Mapbox](https://www.mapbox.com/) - Mapping service for tour locations.
-- [Heroku](https://www.heroku.com/) - Cloud platform for application deployment.
 
-## Future Updates to do
+## Future Updates 📃
+
+- Project Deployement On Heroku
+- Improve User Interface
 
 ## Acknowledgement 🙏🏻
 
