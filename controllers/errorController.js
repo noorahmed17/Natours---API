@@ -1,5 +1,5 @@
 const appCatchErr = require("../utils/appCatchErr");
-const AppCatchErr = require("../utils/appCatchErr");
+
 
 //MongoDD Errors
 const castErrorDB = (err) => {
